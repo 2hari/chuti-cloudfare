@@ -1,5 +1,9 @@
 import Layout from "@/components/Layout";
 
+export const config = {
+  runtime: "experimental-edge",
+};
+
 export async function getServerSideProps() {
   // Get all homes
   // const homes = await prisma.home.findMany();

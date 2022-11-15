@@ -3,8 +3,7 @@ module.exports = {
   images: {
     domains: ["crxkwzottpngsuxyhrvr.supabase.in", "lh3.googleusercontent.com"],
   },
-  // experimental: {
-  //   runtime: "experimental-edge",
-  //   reactRoot: true,
-  // },
+  experimental: {
+    runtime: "experimental-edge",
+  },
 };
